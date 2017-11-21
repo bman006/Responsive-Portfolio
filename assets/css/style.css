@@ -187,3 +187,34 @@ footer{
 	display: inline-block;
 	float: left;
 }
+
+/*980 Start*/
+@media screen and (max-width: 980px) {
+	/*Fix width of left box content*/
+	.mainSection {
+		width: 312px;
+	}
+	/*Fix button alignment on pictures in portfolio tab*/
+	.mainSection a{
+		right: 0px;
+		top: -360.583px;
+	}
+	.portfolio-links-right {
+		top: -130.583px !important;
+}
+	/*Fix length of input fields on contact page*/
+	input, textarea {
+		width: 270px;
+	}
+}
+/*980 End*/
+/*768 Start*/
+@media screen and (max-width: 768px) {
+	
+}
+/*768 End*/
+/*640 Start*/
+@media screen and (max-width: 640px) {
+	
+}
+/*640 End*/
