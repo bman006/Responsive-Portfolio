@@ -290,6 +290,10 @@ footer{
 /*640 Start*/
 @media screen and (max-width: 640px) {
 	/*Header start*/
+	html {
+		margin: 0px;
+		padding: 0px;
+	}
 	body {
 		width: 600px;
 	}
@@ -314,9 +318,46 @@ footer{
 
 	.mainSection {
 		margin: 0px 15px 20px 15px;
-		box-sizing: border-box;
 		width: 570px;
 	}
+	.connect {
+		margin: 0px 15px 50px 15px;
+		width: 570px;
+	}
+	footer {
+		width: 600px;
+	}
+/*Fix button alignment on pictures in portfolio tab*/
+	.mainSection a{
+		right: 0px;
+		top: 0px;
+		position: absolute;
+	}
+	#a1 {
+		top: 368.58px;
+		left: 56px;
+	}
+	#a2 {
+		top: 644.16px;
+		left: 56px;
+	}
+	#b1 {
+		top: 919.74px;
+		left: 56px;
+	}
+	#b2 {
+		top: 1196.76px;
+		left: 56px;
+	}
+	#c1 {
+		top: 1472.34px;
+		left: 56px;
+	}
+	/*#c2 {
+		top: 1747.92px;
+		left: 56px;
+	}*/
+
 
 }
 /*640 End*/
