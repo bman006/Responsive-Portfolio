@@ -291,17 +291,17 @@ footer{
 @media screen and (max-width: 640px) {
 	/*Header start*/
 	body {
-		width: 100%;
+		width: 600px;
 	}
 	header {
 		clear: both;
 		height: 90px;
-		width: 100%;
+		width: 600px;
 	}
 
 	header h1{
 		height: 50px;
-		width: 100%;
+		width: 600px;
 		margin: 0px 0px 0px 0px;
 		padding: 5px 0px 0px 0px;
 	}
@@ -314,7 +314,8 @@ footer{
 
 	.mainSection {
 		margin: 0px 15px 20px 15px;
-		width: 100%;
+		box-sizing: border-box;
+		width: 570px;
 	}
 
 }
