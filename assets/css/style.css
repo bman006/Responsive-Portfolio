@@ -189,7 +189,7 @@ footer{
 }
 
 /*980 Start*/
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) and (min-width: 769px) {
 	/*Fix width of left box content*/
 	.mainSection {
 		width: 312px;
@@ -197,11 +197,33 @@ footer{
 	/*Fix button alignment on pictures in portfolio tab*/
 	.mainSection a{
 		right: 0px;
-		top: -360.583px;
+		top: 0px;
+		position: absolute;
 	}
-	.portfolio-links-right {
-		top: -130.583px !important;
-}
+	#a1 {
+		top: 368.58px;
+		left: 56px;
+	}
+	#a2 {
+		top: 644.16px;
+		left: 56px;
+	}
+	#b1 {
+		top: 919.74px;
+		left: 56px;
+	}
+	#b2 {
+		top: 1196.76px;
+		left: 56px;
+	}
+	#c1 {
+		top: 1472.34px;
+		left: 56px;
+	}
+	/*#c2 {
+		top: 1747.92px;
+		left: 56px;
+	}*/
 	/*Fix length of input fields on contact page*/
 	input, textarea {
 		width: 270px;
@@ -210,11 +232,90 @@ footer{
 /*980 End*/
 /*768 Start*/
 @media screen and (max-width: 768px) {
-	
+	/*Fix page links overflowing*/
+	header h1{
+		margin: 0px 30px 0px 40px;
+	}
+	/*Shrink main section*/
+	.mainSection {
+		margin: 0px 0px 20px 40px;
+		width: 580px;
+		}
+	/*Make connect with me box wider*/
+	.connect {
+		width: 580px;
+		margin: 0px 0px 100px 40px;
+		text-align: left;
+	}
+	/*Fix width of contact page input fields*/
+	input, textarea {
+		width: 539px;
+		padding: 5px 0px 5px 5px;
+	}
+	/*Fix pictures and button links on portfolio page*/
+	/*Main section content width is now 0.8867313915857605 original size*/
+	.mainSection a{
+		display: block;
+		padding: 15px 0px 15px 0px;
+		height: 50px;
+		width: 248.28px;
+		background-color: #4aaaa5;
+		text-align: center;
+		text-decoration: none;
+		color: #f5f4f0;
+		font-weight: bold;
+		font-size: 1.3em;
+		position: relative;
+		top: -80px;
+		float: left;
+	}
+	.mainSection img{
+	/*	position: relative;
+	*/	width: 248.28px;
+	/*	z-index: 50;
+	*/}
+	.portfolioImages {
+		padding: 0px 0px 20px 0px;
+		z-index: 100;
+	} 
+	.portfolioImagesRight {
+		float: right;
+	}
+	.portfolio-links-right {
+		right: -51.46px;
+	}
+
 }
-/*768 End*/
+/*768 End
 /*640 Start*/
 @media screen and (max-width: 640px) {
-	
+	/*Header start*/
+	body {
+		width: 100%;
+	}
+	header {
+		clear: both;
+		height: 90px;
+		width: 100%;
+	}
+
+	header h1{
+		height: 50px;
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		padding: 5px 0px 0px 0px;
+	}
+
+	header h2{
+		margin: 0px 0px 0px 0px;
+		padding: 5px 20px 0px 10px;
+	}
+	/*Header end*/
+
+	.mainSection {
+		margin: 0px 15px 20px 15px;
+		width: 100%;
+	}
+
 }
 /*640 End*/
