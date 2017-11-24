@@ -270,10 +270,8 @@ footer{
 		float: left;
 	}
 	.mainSection img{
-	/*	position: relative;
-	*/	width: 248.28px;
-	/*	z-index: 50;
-	*/}
+		width: 248.28px;
+	}
 	.portfolioImages {
 		padding: 0px 0px 20px 0px;
 		z-index: 100;
@@ -300,12 +298,12 @@ footer{
 	header {
 		clear: both;
 		height: 90px;
-		width: 600px;
+		width: 640px;
 	}
 
 	header h1{
 		height: 50px;
-		width: 600px;
+		width: 640px;
 		margin: 0px 0px 0px 0px;
 		padding: 5px 0px 0px 0px;
 	}
@@ -318,44 +316,51 @@ footer{
 
 	.mainSection {
 		margin: 0px 15px 20px 15px;
-		width: 570px;
+		width: 610px;
 	}
 	.connect {
 		margin: 0px 15px 50px 15px;
-		width: 570px;
+		width: 610px;
 	}
 	footer {
-		width: 600px;
+		width: 640px;
 	}
 /*Fix button alignment on pictures in portfolio tab*/
 	.mainSection a{
-		right: 0px;
-		top: 0px;
 		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+	.mainSection img{
+		width: 450px;
+		margin: 0px 0px 0px 64px;
+	} 
+	.portfolioImagesRight {
+		float: none;
+	}
+	.mainSection a{
+		margin: 0px 0px 0px 95px;
+		padding: 15px 0px 15px 0px;
+		height: 50px;
+		width: 450px;
 	}
 	#a1 {
-		top: 368.58px;
-		left: 56px;
+		top: 540px;
 	}
 	#a2 {
-		top: 644.16px;
-		left: 56px;
+		top: 970.76px;	
 	}
 	#b1 {
-		top: 919.74px;
-		left: 56px;
+		top: 1401.52px;
 	}
 	#b2 {
-		top: 1196.76px;
-		left: 56px;
+		top: 1832.28px;
 	}
 	#c1 {
-		top: 1472.34px;
-		left: 56px;
+		top: 2263.04px;
 	}
 	/*#c2 {
-		top: 1747.92px;
-		left: 56px;
+		topL 2693.8px;
 	}*/
 
 
